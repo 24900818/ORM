@@ -44,10 +44,15 @@ class  Movie_DB(models.Model):
 
 class Movie_DBAdmin(admin.ModelAdmin): 
     list_display = ('Movie_ID', 'Title', 'Genre', 'Rating', 'Language', 'Release_Date')
-
+```
 ## OUTPUT
 
 ![435891259-51b904e1-020f-46d5-b379-8798fc75abc4](https://github.com/user-attachments/assets/11f310a2-3cd6-4114-b893-2d405c34dc11)
 
+
 ## RESULT
+
 Thus the program for creating movies database using ORM hass been executed successfully
+
+
+
